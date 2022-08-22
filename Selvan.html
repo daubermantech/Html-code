@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="eng-us">
+<head>
+<title>Hello  world</title>
+<link rel="icon" type="image/x-icon" href="./offline.webp">
+
+
+<body style="background-color: black;background-attachment: fixed;background-size: 100% 100%;background-image: url('https://cdn.wallpapersafari.com/46/6/ViUbI4.png');
+">
+<form action="./save.html" restricted>
+    <div style="border:3px solid rgb(255, 255, 255);padding: 5px;margin-left:19% ;border-radius:25px;margin-right:19%; color:aliceblue;background-color:black;">
+    <fieldset>
+        <legend>User data</legend>
+    <label for="fname">First name:</label><br>
+   <span style="margin-left: 12%;"> <input type="text" id="fname" placeholder="Enter your name" name="fname"><br></span>
+    <label for="fname">Last name:</label><br>
+    <span style="margin-left: 12%;"><input type="text" id="lname" placeholder="Enter your last name" name="lname"><br></span>
+    <label for="email">Email:</label><br>
+    <span style="margin-left: 12%;"> <input type="email" id="email" name="email" placeholder="Someone@gmail.com"><br></span>
+    <label for="password">Password:</label><br>
+    <span style="margin-left: 12%;"> <input type="password" id="password" name="password" placeholder="Enter atleast 8 character"><br></span>
+    <p> select your date of birth:</p>
+    <span style="margin-left:12% ;"><input type="date" name="Dob"></span>
+    </fieldset><br>
+    <fieldset>     
+        <legend>Country and Gender</legend>
+        
+        <p> select your Counrty:</p>
+        <span style="margin-left: 12%;width:30px;">
+        <select name="Country">
+            <option value="Indian">Indian</option>
+            <option value="American">American</option>
+            <option value="Russian">Russian</option>
+            <option value="Others">Others</option>
+            </select></span>
+        
+   
+        
+        <p> select your gender:</p>
+        <div style="margin-left: 12%;">
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="Female">Female</label>
+        </div>
+        <p> select your favorite color:</p>
+        <span style="margin-left: 12%;"><input type="color" id="color" name="Color"></span>
+    </fieldset>
+    <fieldset>
+        <legend>Address and file</legend>
+        <p>Enter your address:</p>
+       <span style="margin-left: 12%;"><textarea name="address" rows="8" cols="18">please enter your Address</textarea></span>
+       <p>Insert your file:</p> 
+   <span style="margin-left: 12%;"> <input type="file" id="file" name="file"></span><br><hr>
+   <p>By entering your details you have accepted our <a href="#">Terms and conditon</a></p>
+
+
+    </fieldset>
+<hr>
+
+<span style="margin-left:85% ;" ><input type="submit" id="submit" name="submit"></span>
+
+
+    
+    
+   </div> 
+
+</form>
+</body>
+</html>
